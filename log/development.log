@@ -813,3 +813,11 @@ Processing by PostsController#new as HTML
 Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/posts/new" for ::1 at 2020-06-18 14:17:08 -0600
+Processing by PostsController#new as HTML
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (0.7ms)
+  Rendered posts/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 38ms (Views: 11.9ms | ActiveRecord: 0.6ms)
+
+
