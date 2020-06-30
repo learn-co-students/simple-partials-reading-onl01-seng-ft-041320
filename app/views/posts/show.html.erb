@@ -1,4 +1,4 @@
-<%= render 'authors/author' %>
+<%= render partial: "authors/author", locals: {post_author: @post.author} %>
 
 <h1><%= @post.title %></h1>
 <p><%= @post.description %></p>
